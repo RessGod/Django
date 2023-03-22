@@ -1,0 +1,13 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <h1> Bonjour </h1>
+    <h2>il est {{ date|date:"d F Y" }}</h2>
+</body>
+</html>
